@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bebas+Neue&family=Shadows+Into+Light&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bebas+Neue&family=Combo&family=Shadows+Into+Light&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bebas+Neue&family=Combo&family=Raleway:ital,wght@0,100;1,100&family=Shadows+Into+Light&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bebas+Neue&family=Combo&family=Josefin+Sans:wght@500&family=Raleway:ital,wght@0,100;1,100&family=Shadows+Into+Light&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    height: auto;
+    background: linear-gradient(45deg , teal , magenta , white);
+}
+li a{
+    font-size: 1vw;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 0.2vw;
+    text-decoration: none;
+    display: list-item;
+    text-align: center;
+    margin-top: .1vw;
+}
+ul{
+    list-style: none;
+}
+p{
+    font-family: 'Combo';
+    font-size: medium;
+    margin: 0.3vh 0;
+}
+h1{
+    font-size: 0.3vw;
+}
+.space-between{
+    justify-content: space-between;
+}
+.item-center{
+    align-items: center;
+}
+.flex{
+    display: flex;
+}
+body.new{
+    margin: 1vw;
+    padding: .2vh;
+}
+.first-h1{
+    font-family: 'Ubuntu', sans-serif;
+}
+.details{
+    padding: 0.04vw;
+    margin: auto 0.015625vw;
+    border-radius: 10px;
+    border: 5px solid rgb(0, 255, 255);
+}
+.content{
+    margin: 50px 50px;
+    padding: 0.007vw auto;
+}
+body .new .header{
+    font-family: 'Ubuntu', sans-serif;
+    background: linear-gradient(90deg , rgb(255, 0, 242),  rgb(0, 255, 255));
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    padding-right: 0.015625vw;
+    width: 100%;
+    z-index: 10;
+    padding: 0.007vw;
+    padding-left: 0.0390625vh;
+    padding-right: 0.390625vw;
+}
+.btn{
+    text-decoration: none;
+    padding: 0 0.007vw;
+    border-radius: 0.03125vh;
+    background: white;
+    color: rgb(0, 94, 255);
+    font-size: 1.5em;
+    z-index: 9;
+    transform: translateY(5px);
+}
+body .new .content img{
+    height: 80vh;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.Yello{
+    text-align: center;
+    margin: 0.015625vw auto;
+}
+footer h2,
+.Yello h1{
+    text-shadow: 2px 2px 2px rgba(123, 150, 150, 0.48);
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-family: 'Raleway';
+    padding: 0 0.078125vw;
+    padding-top: 0.0625vw;
+}
+.Yello .hot-yello img{
+    margin:0  0.15625vw;
+    height: 80vh;
+    border-radius: 0.015625vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.Yello .hot-yello p{
+    size: 0.78125vw;
+    text-align: center;
+    width: 0.15625vw;
+    margin: auto;
+    padding: 0.015625vw;
+    border-radius: 0.015625vw;
+    background-color: aqua;
+}
+.btn:hover{
+    background-color: blue;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+footer{
+    margin-top: 0.3125vw;
+}
+footer .senapati{
+    padding: 0.0234375vw 0.0078vw;
+}
+footer .defination .one{
+    width: 45%;
+    background-color: aqua;
+    padding: 0.015625vw;
+    margin: 0.015625vw;
+    border-radius: 5px;
+}
+footer .defination .one img{
+    width: 0.015625vw;
+    height: 0.015625vw;
+}
+footer .defination .one h4{
+    text-align: right;
+}
+footer .senapati .left img{
+    width: 0.046875vw;
+    height: 0.046875vw;
+    border-radius: 50%;
+}
+footer .senapati .left h3{
+    padding: 0.015625vw 0.0078vw;
+}
+footer .senapati .left h3 sub{
+    font-size:0.0078vw;
+}
+footer .senapati .right a img{
+    margin-right: 0.015625vw;
+    height: 0.0234375vw;
+    width: 0.0234375vw;
+}
+footer .senapati .right a{
+    padding-top: 0.01875vw;
+    padding-left: 0.0125vw;
+    padding-bottom: 0.003125vw;
+    border-radius: 50%;
+}
+footer .senapati .right a:hover{
+    background-color: rgb(183, 243, 243);
+
+}
